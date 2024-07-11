@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  BUILD_PROFILE: release-lto
+  BUILD_PROFILE: release
   CARGO_TARGET_DIR: target
 
 jobs:
